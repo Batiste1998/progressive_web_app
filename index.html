@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>PWA</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/dracula.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>PWA</h2>
+        </section>
+        <section>
+          <h3>Quand les sites web deviennent des super applications</h3>
+          <img src="./examples/assets/hero-pwa.png" alt="" width="400" />
+          <aside class="notes">
+            <p>
+              Bonjour à tous ! Aujourd'hui, on va parler des Progressive Web
+              Apps, ou PWAs. Si je devais résumer les PWAs en une phrase, ce
+              serait : <i>ce sont des sites web avec des super-pouvoirs.</i>
+            </p>
+            <p>
+              Imaginez un site capable de fonctionner sans connexion Internet,
+              qui s'installe comme une application sur votre téléphone et qui
+              vous offre une expérience fluide, rapide et engageante. Ca
+              ressemble à de la magie, pas vrai ? Et bien, je vais vous montrer
+              que ce n'est pas si mystérieux.
+            </p>
+          </aside>
+        </section>
+        <section>
+          <section>
+            <h3>C'est quoi une PWA ?</h3>
+            <p>
+              Une Progressive Web App (PWA) est un site web enrichi avec des
+              fonctionnalités qui le rendent similaire à une application native
+            </p>
+            <aside class="notes">
+              <p>
+                Alors, qu'est-ce qu'une PWA exactement ? Une Progressive Web
+                App, c'est un site web, mais en mieux ! Elle garde tout ce qu'on
+                aime des sites web - l'accessibilité universelle, la rapidité de
+                chargement - et y ajoute des fonctionnalités d'une vraie
+                application mobile, comme pouvoir fonctionner hors ligne ou
+                envoyer des notifications push.
+              </p>
+              <p>
+                Prenons un exemple simple : Imaginez que vous consulter un site
+                de recette en pleine montagne où il n'y a pas de réseau. Avec
+                une PWA, aucun problème ! Vous avez déjà les recettes dans le
+                cache de votre téléphone grâce à ce qu'on appelle les Service
+                Workers. La PWA est donc progressive, car elle s'adapte à la
+                puissance de l'appareil et à la qualité de la connexion. En
+                gros, c'est un site avec des super-pouvoirs pour offrir la
+                meilleure expérience possible.
+              </p>
+            </aside>
+          </section>
+          <section>
+            <h3>Caractéristiques principales :</h3>
+            <ol>
+              <li>
+                <strong>Rapide</strong> : Chargement ultra-rapide, même avec une
+                connexion lente.
+              </li>
+              <li>
+                <strong>Fiable</strong> : Fonctionne hors ligne ou avec une
+                mauvaise connexion grâce aux Service Workers.
+              </li>
+              <li>
+                <strong>Engageante</strong> : Offre une expérience immersive
+                comme une vraie appli.
+              </li>
+            </ol>
+          </section>
+        </section>
+				<section>
+					<section>
+						<h3>Les PWAs, on les utilise déjà !</h3>
+						<div class="r-stack">
+							<img class="fragment" src="" alt="">
+							<img class="fragment" src="" alt="">
+							<img class="fragment" src="" alt="">
+						</div>
+					</section>
+				</section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      })
+    </script>
+  </body>
+</html>
