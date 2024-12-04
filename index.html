@@ -22,80 +22,139 @@
         <section>
           <h2>PWA</h2>
         </section>
-        <section>
-          <h3>Quand les sites web deviennent des super applications</h3>
-          <img src="./examples/assets/hero-pwa.png" alt="" width="400" />
-          <aside class="notes">
-            <p>
-              Bonjour à tous ! Aujourd'hui, on va parler des Progressive Web
-              Apps, ou PWAs. Si je devais résumer les PWAs en une phrase, ce
-              serait : <i>ce sont des sites web avec des super-pouvoirs.</i>
-            </p>
-            <p>
-              Imaginez un site capable de fonctionner sans connexion Internet,
-              qui s'installe comme une application sur votre téléphone et qui
-              vous offre une expérience fluide, rapide et engageante. Ca
-              ressemble à de la magie, pas vrai ? Et bien, je vais vous montrer
-              que ce n'est pas si mystérieux.
-            </p>
-          </aside>
-        </section>
-        <section>
-          <section>
-            <h3>C'est quoi une PWA ?</h3>
-            <p>
-              Une Progressive Web App (PWA) est un site web enrichi avec des
-              fonctionnalités qui le rendent similaire à une application native
-            </p>
+					<section>
+            <h4>🔍 Une PWA, c'est quoi ?</h4>
+            <br>
+            <ul>
+              <li class="fragment"><strong>Un site web + une app native</strong></li>
+              <li class="fragment">Accessible via le <strong>navigateur</strong></li>
+              <li class="fragment"><strong>Fonctionne hors ligne</strong></li>
+            </ul>
             <aside class="notes">
-              <p>
-                Alors, qu'est-ce qu'une PWA exactement ? Une Progressive Web
-                App, c'est un site web, mais en mieux ! Elle garde tout ce qu'on
-                aime des sites web - l'accessibilité universelle, la rapidité de
-                chargement - et y ajoute des fonctionnalités d'une vraie
-                application mobile, comme pouvoir fonctionner hors ligne ou
-                envoyer des notifications push.
-              </p>
-              <p>
-                Prenons un exemple simple : Imaginez que vous consulter un site
-                de recette en pleine montagne où il n'y a pas de réseau. Avec
-                une PWA, aucun problème ! Vous avez déjà les recettes dans le
-                cache de votre téléphone grâce à ce qu'on appelle les Service
-                Workers. La PWA est donc progressive, car elle s'adapte à la
-                puissance de l'appareil et à la qualité de la connexion. En
-                gros, c'est un site avec des super-pouvoirs pour offrir la
-                meilleure expérience possible.
-              </p>
+              <p>Alors, une PWA, c'est un peu comme un caméléon du web. A première vue, c'est un site classique.</p>
+              <p>Mais en fait, c'est bien plus ! Elle s'adapte et se transforme en application installable, sans passer par un App Store. Et mieux encore : même si tu es dans une grotte sans réseau, elle continue de fonctionner grâce à sa magie offline. Pratique non ?</p>
             </aside>
           </section>
           <section>
-            <h3>Caractéristiques principales :</h3>
+            <h4>🛠️ Les rouages secrets des PWA</h4>
+            <br>
             <ol>
-              <li>
-                <strong>Rapide</strong> : Chargement ultra-rapide, même avec une
-                connexion lente.
-              </li>
-              <li>
-                <strong>Fiable</strong> : Fonctionne hors ligne ou avec une
-                mauvaise connexion grâce aux Service Workers.
-              </li>
-              <li>
-                <strong>Engageante</strong> : Offre une expérience immersive
-                comme une vraie appli.
-              </li>
+              <li class="fragment"><strong>Service Worker : </strong>Le gestionnaire de cache</li>
+              <li class="fragment"><strong>Manifest : </strong>Le passport de l'app</li>
+              <li class="fragment"><strong>HTTPS : </strong>Le garde du corps</li>
             </ol>
+            <aside class="notes">
+              <p>Ah, le coeur de la PWA, c'est là que ça devient technique !</p>
+              <ul>
+                <li>Le Service Worker, c'est un petit programme en coulisses. Il met les données en cache pour que l'app marche sans réseau.</li>
+                <li>Le Manifest, c'est son passeport : il donne son nom, son icône, ses couleurs.</li>
+                <li>Et le HTTP, c'est le garde du corps. Pas de sécurité ? Pas de PWA ! Alors, on garde ça blindé.</li>
+              </ul>
+            </aside>
           </section>
-        </section>
-				<section>
-					<section>
-						<h3>Les PWAs, on les utilise déjà !</h3>
-						<div class="r-stack">
-							<img class="fragment" src="" alt="">
-							<img class="fragment" src="" alt="">
-							<img class="fragment" src="" alt="">
-						</div>
-					</section>
-				</section>
+          <section>
+            <h4>🌟 Pourquoi adopter une PWA ?</h4>
+            <br>
+            <ul>
+              <li class="fragment">📱 <strong>Moins de stockage</strong></li>
+              <li class="fragment">⚡ <strong>Rapide et fluide</strong></li>
+              <li class="fragment">🌍 <strong>Multi-plateforme</strong></li>
+              <li class="fragment">💸 <strong>Un seul développement</strong></li>
+            </ul>
+            <aside class="notes">
+              <p>Maintenant imaginez : </p>
+              <ul>
+                <li>PLus besoin de vous soucier de la place sur votre téléphone, une PWA prend peu d'espace.</li>
+                <li>Plus besoin d'attendre des heures : c'est rapide et fluide.</li>
+                <li>Pas de jaloux entre IPhone et Android : tout le monde y a accès.</li>
+                <li>Et les développeurs ? Ils sourient parce qu'ils ne codent qu'une seule fois pour toutes les plateformes ! C'est du gagnant-gagnant.</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h4>🎯 PWA en action</h4>
+            <br>
+            <ul>
+              <li class="fragment"><strong>Twitter Lite : </strong>Economie de données</li>
+              <li class="fragment"><strong>Starbucks : </strong> Commande hors ligne</li>
+              <li class="fragment"><strong>Pinterest : </strong>Chargement express</li>
+            </ul>
+            <aside class="notes">
+              <p>Des exemples ? Facile !</p>
+              <li>Twitter Lite est parfait pour économiser les données mobiles, une bénédiction pour ceux qui ont un forfait limité</li>
+              <li>Chez Starbucks, même sans connextion, tu peux commander ton café. Ils pensent à tout !</li>
+              <li>Et Pinterest ! Leur temps de chargement a été réduit de 40% grâce à leur PWA. C'est un peu comme passer du vélo au TGV !</li>
+            </aside>
+          </section>
+          <section>
+            <h4>⚠️ Les limites des PWA</h4>
+            <br>
+            <ul>
+              <li class="fragment">Moins d'accès aux <strong>APIs natives</strong></li>
+              <li class="fragment"><strong>Support limité </strong>sur IOS</li>
+              <li class="fragment">Pas visible sur les stores</li>
+            </ul>
+            <aside class="notes">
+              <p>Bien sûr, les PWA ne sont pas parfaites</p>
+              <ul>
+                <li>Certaines fonctionnalités, comme le Bluetooth ou la biométrie, ne sont pas toujours accessible.</li>
+                <li>Et IOS.... comment dire... Apple aime bien mettre quelques bâtons dans les roues des PWA.</li>
+                <li>Enfin, elles sont moins visibles puisqu'elles ne passe pas par les stores officiels. Mais honnêtement, c'est un détail comparé aux avantages.</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h4>📱 Pourquoi installer une PWA ?</h4>
+            <br>
+            <ul>
+              <li class="fragment">Apparition sur <strong>l'écran d'accueil</strong></li>
+              <li class="fragment">Accès rapide via menus et recherches</li>
+              <li class="fragment">Intégrée dans les expériences natives</li>
+            </ul>
+            <aside class="notes">
+              <p>Installer une PWA, c'est offrir une expérience fluide et native. Une fois installée : </p>
+              <ul>
+                <li>Elle s'affiche sur l'écran d'accueil ou le menu démarrer</li>
+                <li>Elle est accessible dans les recherches systèmes comme Spotlight</li>
+                <li>Et elle fonctionne comme une vraie app : visible dans les switchers d'activité et dans les options de partage de contenu. En gros, on ne fait plus la différence avec une app classique.</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h4>✅ Les critères d'installation pour une PWA</h4>
+            <br>
+            <ol>
+              <li class="fragment"><strong>HTTPS : </strong>Sécurité avant tout</li>
+              <li class="fragment"><strong>Manifest complet : </strong></li>
+              <ul>
+                <li class="fragment"><i>name</i> ou <i>short_name</i></li>
+                <li class="fragment"><i>icons</i> (192px & 512px)</li>
+                <li class="fragment"><i>start_url</i></li>
+                <li class="fragment"><i>display</i> (fullscreen, standalone, minimal-ui)</li>
+              </ul>
+              <li class="fragment"><strong>Engagement utilisateur : </strong></li>
+              <ul>
+                <li class="fragment">Au moins <strong>1 interaction</strong></li>
+                <li class="fragment">Au moins <strong>30 secondes</strong> passées sur la page.</li>
+              </ul>
+            </ol>
+            <aside class="notes">
+              <p>Pour qu'une PWA soit installable, elle doit remplir trois conditions principales : </p>
+              <ul>
+                <li>Sécurité : Servies en HTTPS. Pas de discussion, c'est obligatoire pour protéger les données.</li>
+                <li>Manifest clair : C'est comme son CV. Il doit avoir un nom, des icônes en 192px et 512px, un start_url et un mode d'affichage.</li>
+                <li>Engagement utilisateur : Chrome vérifie que l'utilisateur a passé au moins 30 secondes sur le site et qu'il a cliqué au moins une fois. Pas question de forcer l'installation sans intérêt.</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <section>
+              <h4>🛠️ Comment transformer une simple page web en une véritable application installable sur mobile et ordinateur ?</h4>
+            </section>
+            <section>
+              <h4>🎉 TP et démonstration from Scratch (mais ouiiiiiiii) 🎉</h4>
+            </section>
+          </section>
       </div>
     </div>
 
