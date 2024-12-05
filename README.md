@@ -1,50 +1,50 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+# 🌐 Présentation des Progressive Web Apps (PWA)
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+Bienvenue dans cette présentation interactive dédiée aux **Progressive Web Apps** (PWA) !  
+Ce projet utilise **Reveal.js** pour créer un diaporama captivant qui explique les principaux concepts des PWA.
 
-The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
+## 🎯 Objectif
 
----
+Cette présentation a pour but de te faire découvrir les PWA de manière simple et ludique :  
+- Qu'est-ce qu'une PWA ?  
+- Pourquoi les utiliser ?  
+- Comment les développer ?  
+- Exemples concrets et limites à prendre en compte.
 
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
+## 🛠️ Technologies utilisées
 
----
+- **HTML5** : pour la structure du contenu.
+- **CSS** : pour le style et l’esthétique (thème Dracula et Monokai).
+- **Reveal.js** : pour rendre la présentation interactive et dynamique.
+- **Plugins Reveal.js** :  
+  - `highlight.js` : pour la mise en valeur du code.  
+  - `notes.js` : pour afficher des notes pour les présentateurs.  
+  - `markdown.js` : pour le support du contenu Markdown.
 
-### Sponsors
-Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
-<div align="center">
-  <table>
-    <td align="center">
-      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
-        <div>
-          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
-        </div>
-        <b>Your app, enterprise-ready.</b>
-        <div>
-          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
-        </div>
-      </a>
-    </td>
-  </table>
-</div>
+## 📚 Contenu de la présentation
 
----
+1. **🔍 Une PWA, c'est quoi ?**  
+   Découvre ce qu'est une PWA et comment elle combine les avantages d'un site web et d'une application native.
 
-### Getting started
-- 🚀 [Install reveal.js](https://revealjs.com/installation)
-- 👀 [View the demo presentation](https://revealjs.com/demo)
-- 📖 [Read the documentation](https://revealjs.com/markup/)
-- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
-- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
+2. **🛠️ Les rouages secrets des PWA**  
+   Explore les éléments clés qui font fonctionner une PWA : Service Worker, Manifest et HTTPS.
 
---- 
-<div align="center">
-  MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
-</div>
+3. **🌟 Pourquoi adopter une PWA ?**  
+   Les avantages pour les utilisateurs et développeurs.
+
+4. **🎯 PWA en action**  
+   Des exemples de PWA célèbres comme Twitter Lite, Starbucks et Pinterest.
+
+5. **⚠️ Les limites des PWA**  
+   Les défis actuels à surmonter et les limitations des PWA.
+
+6. **✅ Critères d'installation**  
+   Les conditions nécessaires pour rendre une PWA installable sur un appareil.
+
+## 🚀 Lancer la présentation
+
+1. Clone ce dépôt :  
+   ```bash
+   git clone https://github.com/ton-repo/presentation-pwa.git
+   cd presentation-pwa
+   ```
